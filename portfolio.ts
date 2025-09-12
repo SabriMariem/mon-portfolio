@@ -12,10 +12,10 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Mariem Sabri",
+  title: "Hi all, I'm Mariem",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I am passionate Full-Stack Web Developer with strong experience in UI/UX optimization, digital solutions, and creative design. Beyond tech, I am deeply engaged in community work, training, and youth empowerment. My portfolio reflects both my technical expertise and my vibrant personality.",
   resumeLink: "#",
 };
 
@@ -26,12 +26,12 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
+  email: "mailto:sabrimariem1025@gmail.com",
+  linkedin: "https://www.linkedin.com/in/sabri-mariem",
+  github: "https://github.com/SabriMariem",
+  // instagram: "https://www.instagram.com/__hanzla100",
+  facebook: 'https://www.facebook.com/mariem.sabri.61707',
+  twitter: 'https://twitter.com/sabrimariem1025',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -47,14 +47,7 @@ export const skillsSection: SkillsSectionType = {
         emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
       ],
       softwareSkills: [
-        {
-          skillName: "Python",
-          iconifyTag: "logos:python",
-        },
-        {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
-        },
+    
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
@@ -67,22 +60,12 @@ export const skillsSection: SkillsSectionType = {
           skillName: "Nextjs",
           iconifyTag: "vscode-icons:file-type-light-next",
         },
-        {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
-        },
-        {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
-        },
+  
         {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
         },
-        {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
-        },
+      
       ],
     },
   ],
@@ -90,87 +73,61 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
-  },
-  {
-    Stack: "Backend",
+    Stack: "Frontend/Design", 
     progressPercentage: "90",
   },
   {
+    Stack: "Backend",
+    progressPercentage: "85",
+  },
+  {
     Stack: "Programming",
-    progressPercentage: "95",
+    progressPercentage: "70",
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
     schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    subHeader: "Master’s Degree in Software Engineering and Knowledge",
+    duration: "September 2021 - June 2023",
     desc: "",
-    grade: "Grade A",
-    descBullets: [], // Array of Strings
+    grade: "",
+    descBullets: [],
   },
 ];
 
 export const experience: ExperienceType[] = [
+
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "Full-Stack Web Developer",
+    company: "Devaxon",
+    companyLogo: "/img/icons/common/devaxon.jpg",
+    date: "February 2024 – Present",
+    desc: "Developing and maintaining full-stack web applications. Creating dynamic interfaces connected to relational databases (SQL). Optimizing UX/UI for better user experience. Debugging and refactoring existing applications.   ",
+
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-  },
-  {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
-  },
+    role: "Digital Marketing",
+    company: "Aquatun",
+    companyLogo: "/img/icons/common/aqua.jpg",
+    date: "December 2023 - 17 February 2024",
+    desc: "Maintained and optimized the company’s website.Produced digital and editorial content. Conducted social media trend monitoring  ",
+  }
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "Carpooling App",
+    desc:  "Explore our mobile carpooling app, designed to make your trips easier, safer, and help you share rides with other users.",
+    // github: "https://github.com/1hanzla100/developer-portfolio",
+    // link: "https://developer-portfolio-1hanzla100.vercel.app/",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
-  },
-  {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
-  },
-  {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
-  },
+    name: "HR Management App",
+    desc:"Streamline your recruitment workflow from job request to new hire onboarding with full traceability at every step. Also digitizes probation and contract evaluations for efficient HR management.",
+    // link: "https://gibeo.io/",
+  }
 ];
 
 export const feedbacks: FeedbackType[] = [
@@ -196,18 +153,18 @@ export const feedbacks: FeedbackType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Sabri Mariem",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  author: "Sabri Mariem",
+  // image: "https://avatars.githubusercontent.com/u/59178380?v=4",
+    image: "/img/icons/common/mariem.jpg",
+
+  // 
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "Mariem",
+    "Sabri Mariem",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Mariem Portfolio ",
+    "Sabri Mariem Portfolio",
   ],
 };
