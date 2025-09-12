@@ -9,6 +9,7 @@ import {
   SEODataType,
   SocialLinksType,
   GreetingsType,
+  ServiceType
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
@@ -104,7 +105,7 @@ export const experience: ExperienceType[] = [
     company: "Devaxon",
     companyLogo: "/img/icons/common/devaxon.jpg",
     date: "February 2024 – Present",
-    desc: "Developing and maintaining full-stack web applications. Creating dynamic interfaces connected to relational databases (SQL). Optimizing UX/UI for better user experience. Debugging and refactoring existing applications.   ",
+    desc: "Developing and maintaining full-stack web applications with dynamic interfaces connected to SQL databases, optimizing UX/UI, and debugging or refactoring existing code for better performance.",
 
   },
   {
@@ -112,20 +113,41 @@ export const experience: ExperienceType[] = [
     company: "Aquatun",
     companyLogo: "/img/icons/common/aqua.jpg",
     date: "December 2023 - 17 February 2024",
-    desc: "Maintained and optimized the company’s website.Produced digital and editorial content. Conducted social media trend monitoring  ",
+    desc:"Optimized the company website, created engaging digital and editorial content, and tracked social media trends to boost overall online presence and audience engagement.",
   }
 ];
 
 export const projects: ProjectType[] = [
   {
     name: "Carpooling App",
-    desc:  "Explore our mobile carpooling app, designed to make your trips easier, safer, and help you share rides with other users.",
+    desc:  "Explore our mobile carpooling app, designed to make your trips easier, safer, and more connected. With our app, passengers can easily find and contact drivers heading in their direction, while drivers have the freedom to choose their preferred route directly on the integrated map. Users can share their trip status, update destinations, and communicate details through a well-structured form, ensuring transparency and better coordination. Whether you’re looking to save time, reduce travel costs, or meet fellow travelers, our app makes every journey convenient, safe, and social.",
+  },
+  {
+    name: "HR Management App",
+    desc: "Streamline your recruitment workflow from job requests to new hire onboarding with full traceability at every step. The app also digitizes probation evaluations, contract management, and employee documentation for efficient HR operations. Managers and HR teams can track progress, communicate updates, and ensure compliance, while employees receive timely notifications and clear guidance. This centralized solution improves transparency, reduces administrative workload, and enhances overall workforce management, making HR processes smoother, faster."
+  }
+];
+export const services: ServiceType[] = [
+  {
+    name: "💻 Web development",
+    desc:  "Full-stack development (React.js, Node.js, SQL).UI/UX optimization (ergonomie, design, expérience utilisateur).Maintenance & debugging (correction de bugs, amélioration de code).",
     // github: "https://github.com/1hanzla100/developer-portfolio",
     // link: "https://developer-portfolio-1hanzla100.vercel.app/",
   },
   {
-    name: "HR Management App",
-    desc:"Streamline your recruitment workflow from job request to new hire onboarding with full traceability at every step. Also digitizes probation and contract evaluations for efficient HR management.",
+    name: "🎨 Creativity & Design",
+    desc:"Logo design & visual identity.Content creation (marketing digital, réseaux sociaux).Modern web design with a user-friendly touch.",
+    // link: "https://gibeo.io/",
+  },
+    {
+    name: "👩‍🏫 Training & Soft Skills",
+    desc:  "Training & coaching (soft skills, digital literacy).Communication & teamwork workshops.Project coordination in collaborative environments.",
+    // github: "https://github.com/1hanzla100/developer-portfolio",
+    // link: "https://developer-portfolio-1hanzla100.vercel.app/",
+  },
+  {
+    name: "🌍 Associative engagement",
+    desc:"Event organization & team collaboration.Youth empowerment & community projects.Active participation in trainings and collective initiatives.",
     // link: "https://gibeo.io/",
   }
 ];
@@ -156,7 +178,6 @@ export const seoData: SEODataType = {
   title: "Sabri Mariem",
   description: greetings.description,
   author: "Sabri Mariem",
-  // image: "https://avatars.githubusercontent.com/u/59178380?v=4",
     image: "/img/icons/common/mariem.jpg",
 
   // 

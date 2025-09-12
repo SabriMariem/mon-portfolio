@@ -1,24 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "reactstrap";
 import { socialLinks } from "../portfolio";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const SocialLinks = () => {
+
+  const [copied, setCopied] = useState(false);
+ 
+
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText("sabrimariem1025@gmail.com");
+    setCopied(true);
+
+    setTimeout(() => setCopied(false), 2000); // Reviens à "Copy my email" après 2s
+  };
   return (
     <div className="btn-wrapper text-lg">
+    
       {socialLinks.email && (
-        <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="white"
-          rel="noopener"
-          aria-label="URL"
-          href={socialLinks.url}
-          target="_blank"
-        >
-          <span className="btn-inner--icon">
-            <i className="fa fa-envelope" />
-          </span>
-        </Button>
+        
+  <Button
+  className=""
+  color="white"
+  aria-label="Copy Email"
+ onClick={handleCopy}
+>
+  <span className="btn-inner--icon">
+    <i className="fa fa-envelope" />    {copied ? "Email is copied" : "Copy my email"}
+  </span>
+</Button>
+
       )}
+  
+    
       {socialLinks.linkedin && (
         <Button
           className="btn-icon-only rounded-circle ml-1"
@@ -85,10 +100,24 @@ const SocialLinks = () => {
           aria-label="Twitter"
         >
           <span className="btn-inner--icon">
-            <i className="fa fa-twitter" />
+            <i className="fa fa-twitter" /> 
           </span>
         </Button>
       )}
+       {copied && (
+      <img
+        src="/img/icons/common/confetti.gif"
+        alt="Email Copied"
+        style={{
+          position: "absolute",
+          top: "40%", 
+          left: "20%",
+          transform: "translateX(-50%)",
+          width: "250px",
+          pointerEvents: "none",
+        }}
+      />
+    )}
     </div>
   );
 };

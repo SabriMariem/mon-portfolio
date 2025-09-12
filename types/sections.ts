@@ -79,6 +79,12 @@ export type ProjectType = {
   github?: string;
   link?: string;
 };
+export type ServiceType = {
+  name: string;
+  desc: string;
+  github?: string;
+  link?: string;
+};
 
 // * FEEDBACK SECTION
 
