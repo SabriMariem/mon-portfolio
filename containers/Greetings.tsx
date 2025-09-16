@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
 import { Button, Container, Row, Col } from "reactstrap";
 import GreetingLottie from "../components/DisplayLottie";
-import SocialLinks from "../components/SocialLinks";
+import Link from "../components/Link";
 
 const Greetings = () => {
   useEffect(() => {
@@ -31,7 +31,7 @@ const Greetings = () => {
                 <Col lg="6">
                   <h1 className="display-3 text-white">{greetings.title + " "}</h1>
                   <p className="lead text-white">{greetings.description}</p>
-                  <SocialLinks />
+                  <Link />
          
                 </Col>
                 <Col lg="6">

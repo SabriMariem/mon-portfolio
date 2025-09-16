@@ -89,7 +89,7 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
+    schoolName: "Higher Institute of Computer Science of Médenine",
     subHeader: "Master’s Degree in Software Engineering and Knowledge",
     duration: "September 2021 - June 2023",
     desc: "",
