@@ -5,8 +5,7 @@ type Props = {
   animationPath: string;
 };
 
-const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
-
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 const GreetingLottie = ({ animationPath }: Props) => {
   const defaultOptions = {
