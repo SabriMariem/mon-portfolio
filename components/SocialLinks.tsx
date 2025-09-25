@@ -20,14 +20,13 @@ const SocialLinks = () => {
     
       {socialLinks.email && (
         
-  <Button
-  className=""
-  color="white"
+<Button
+  className="bg-transparent border-0 shadow-none text-black hover:bg-transparent focus:outline-none focus:ring-0"
   aria-label="Copy Email"
- onClick={handleCopy}
+  onClick={handleCopy}
 >
   <span className="btn-inner--icon">
-    <i className="fa fa-envelope" />    {copied ? "Email is copied" : "Copy my email"}
+    <i className="fa fa-envelope" /> {copied ? "Email is copied" : "Copy my email"}
   </span>
 </Button>
 
